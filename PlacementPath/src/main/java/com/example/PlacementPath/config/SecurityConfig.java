@@ -75,7 +75,8 @@ public class SecurityConfig {
         // Allowed origins — Postman works with any, frontend needs localhost:5173
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "http://localhost:3000"
+                "http://localhost:3000",
+                "https://placement-path-frontend.vercel.app" //vercel link
         ));
 
         // All HTTP methods allowed
